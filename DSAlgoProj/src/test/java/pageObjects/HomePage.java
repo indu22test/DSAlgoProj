@@ -1,16 +1,17 @@
 package pageObjects;
 
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import stepDefinitions.BaseClass;
 
-public class HomePage extends BaseClass {
+ public class HomePage extends BaseClass {
 
         public WebDriver driver;
  //constructor        
-public HomePage(WebDriver driver) {
+ public HomePage(WebDriver driver) {
        
    this.driver = driver;
 
@@ -31,7 +32,7 @@ By signin = By.xpath("//a[contains(text(),'Sign in')]");
 
 //TC006
 By register = By.xpath("//a[contains(text(),'Register')]/../../.");
-
+By homepageTitle = By.xpath("//a[contains(text(), \"NumpyNinja\")]");
 
 //methods
 
@@ -82,14 +83,19 @@ public void register() {
 
 driver.findElement(register).click();
 }
-
-
-
-
-
-
-
-
-
+public void homepagetitle() {
+ driver.findElement(homepageTitle).getAttribute("NumpyNinja");
+  
 }
+
+
+ }
+	
+	
+
+
+
+
+
+
 

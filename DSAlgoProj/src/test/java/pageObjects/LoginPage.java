@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import stepDefinitions.BaseClass;
 
-public class LoginPage extends BaseClass {
+ public class LoginPage extends BaseClass {
 
 public WebDriver driver;
 

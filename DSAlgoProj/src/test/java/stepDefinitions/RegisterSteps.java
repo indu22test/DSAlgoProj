@@ -4,7 +4,7 @@ package stepDefinitions;
 
 
 
-import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.WebDriver;
 
 import Utilities.Helper;
 import io.cucumber.java.en.Given;
@@ -21,7 +21,7 @@ import pageObjects.RegisterPage;
 
 
 
-public class RegisterSteps extends BaseClass{
+ public class RegisterSteps extends BaseClass{
 
 	
 
@@ -223,18 +223,34 @@ public class RegisterSteps extends BaseClass{
 
 	@Then("user should be redirected to homepage")
 
-	public void user_should_be_redirected_to_homepage() {
-
-	  
-
-		
-
-		
+	public void user_should_be_redirected_to_homepage() {				
 
 	}
 
+	@When("user click to login button")
+	public void user_click_to_login_button() {
+	    
+	}
+	@Then("user should be redirected to Login Page")
+	public void user_should_be_redirected_to_login_page() {
+	   
+	}
 
-
+	@Given("user click to Dropdown of DataStructure")
+	public void user_click_to_dropdown_of_data_structure() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user navigate to Array button")
+	public void user_navigate_to_array_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("user get Alert Message {string}")
+	public void user_get_alert_message(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
 
 
 

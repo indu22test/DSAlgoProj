@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="crossBrowser.CrossBrowserStackTesting">
+        <methods>
+          <include name="Run_Test_In_TryEditor_of_Applicationspage_in_stack"/>
+          <include name="Login_in"/>
+          <include name="Open_Practice_Questions_Page_in_stack"/>
+          <include name="User_Open_The_Page_Operations_In_Stack"/>
+          <include name="Run_Test_In_TryEditor_of_Implementationpage_in_stack"/>
+          <include name="User_Open_The_Stack_Page"/>
+          <include name="browserQuit"/>
+          <include name="Open_The_ImplementationPage_in_Stack"/>
+          <include name="Open_the_TryeditorPage_in_Operationpage_of_Stack"/>
+          <include name="setup"/>
+          <include name="Open_The_Applicationspage_In_Stack"/>
+          <include name="Enters_Message_Run_Test_in_TryEditorBox"/>
+        </methods>
+      </class> <!-- crossBrowser.CrossBrowserStackTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

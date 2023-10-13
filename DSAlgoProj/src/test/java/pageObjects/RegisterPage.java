@@ -6,13 +6,13 @@ import org.openqa.selenium.WebElement;
 
 import stepDefinitions.BaseClass;
 
-public class RegisterPage extends BaseClass{
+ public class RegisterPage extends BaseClass{
    
-public WebDriver driver;
+ public WebDriver driver;
 
 
 
-public RegisterPage(WebDriver driver) {
+ public RegisterPage(WebDriver driver) {
    
    this.driver = driver;
 

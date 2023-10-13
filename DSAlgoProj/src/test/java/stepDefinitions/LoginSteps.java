@@ -20,7 +20,7 @@ import pageObjects.RegisterPage;
 
 
 
-public class LoginSteps extends BaseClass {
+ public class LoginSteps extends BaseClass {
 
 	
 
@@ -54,11 +54,11 @@ public class LoginSteps extends BaseClass {
 
 	@When("user enters the user id as  {string}")
 
-	public void user_enters_the_user_id_as(String username) {
+	public void user_enters_the_user_id_as(String user) {
 
 	   
 
-	 LoginPage.Username(username);
+	 LoginPage.Username(user);
 
 	}
 

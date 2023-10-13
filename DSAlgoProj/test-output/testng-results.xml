@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T21:49:45 EDT" name="Suite" finished-at="2023-10-12T21:50:10 EDT" duration-ms="25135">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T21:49:45 EDT" name="TestOnChrome" finished-at="2023-10-12T21:50:03 EDT" duration-ms="18125">
+      <class name="crossBrowser.CrossBrowserStackTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:45 EDT" name="setup" finished-at="2023-10-12T21:49:49 EDT" duration-ms="3325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_in()[pri:1, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:49 EDT" name="Login_in" finished-at="2023-10-12T21:49:51 EDT" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_in -->
+        <test-method signature="User_Open_The_Stack_Page()[pri:2, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:51 EDT" name="User_Open_The_Stack_Page" finished-at="2023-10-12T21:49:51 EDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Stack_Page -->
+        <test-method signature="User_Open_The_Page_Operations_In_Stack()[pri:3, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:51 EDT" name="User_Open_The_Page_Operations_In_Stack" finished-at="2023-10-12T21:49:52 EDT" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Page_Operations_In_Stack -->
+        <test-method signature="Open_the_TryeditorPage_in_Operationpage_of_Stack()[pri:4, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:52 EDT" name="Open_the_TryeditorPage_in_Operationpage_of_Stack" finished-at="2023-10-12T21:49:54 EDT" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_the_TryeditorPage_in_Operationpage_of_Stack -->
+        <test-method signature="Enters_Message_Run_Test_in_TryEditorBox()[pri:5, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:54 EDT" name="Enters_Message_Run_Test_in_TryEditorBox" finished-at="2023-10-12T21:49:56 EDT" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enters_Message_Run_Test_in_TryEditorBox -->
+        <test-method signature="Open_The_ImplementationPage_in_Stack()[pri:6, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:56 EDT" name="Open_The_ImplementationPage_in_Stack" finished-at="2023-10-12T21:49:57 EDT" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_ImplementationPage_in_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Implementationpage_in_stack()[pri:7, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:57 EDT" name="Run_Test_In_TryEditor_of_Implementationpage_in_stack" finished-at="2023-10-12T21:49:58 EDT" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Implementationpage_in_stack -->
+        <test-method signature="Open_The_Applicationspage_In_Stack()[pri:8, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:58 EDT" name="Open_The_Applicationspage_In_Stack" finished-at="2023-10-12T21:49:59 EDT" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_Applicationspage_In_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Applicationspage_in_stack()[pri:9, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:49:59 EDT" name="Run_Test_In_TryEditor_of_Applicationspage_in_stack" finished-at="2023-10-12T21:50:01 EDT" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Applicationspage_in_stack -->
+        <test-method signature="Open_Practice_Questions_Page_in_stack()[pri:10, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:50:01 EDT" name="Open_Practice_Questions_Page_in_stack" finished-at="2023-10-12T21:50:03 EDT" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Practice_Questions_Page_in_stack -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserStackTesting@3571b748]" started-at="2023-10-12T21:50:03 EDT" name="browserQuit" finished-at="2023-10-12T21:50:03 EDT" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserStackTesting -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2023-10-12T21:49:45 EDT" name="TestOnMsEdge" finished-at="2023-10-12T21:50:05 EDT" duration-ms="19787">
+      <class name="crossBrowser.CrossBrowserStackTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:45 EDT" name="setup" finished-at="2023-10-12T21:49:50 EDT" duration-ms="4784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_in()[pri:1, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:50 EDT" name="Login_in" finished-at="2023-10-12T21:49:52 EDT" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_in -->
+        <test-method signature="User_Open_The_Stack_Page()[pri:2, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:52 EDT" name="User_Open_The_Stack_Page" finished-at="2023-10-12T21:49:53 EDT" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Stack_Page -->
+        <test-method signature="User_Open_The_Page_Operations_In_Stack()[pri:3, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:53 EDT" name="User_Open_The_Page_Operations_In_Stack" finished-at="2023-10-12T21:49:54 EDT" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Page_Operations_In_Stack -->
+        <test-method signature="Open_the_TryeditorPage_in_Operationpage_of_Stack()[pri:4, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:54 EDT" name="Open_the_TryeditorPage_in_Operationpage_of_Stack" finished-at="2023-10-12T21:49:56 EDT" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_the_TryeditorPage_in_Operationpage_of_Stack -->
+        <test-method signature="Enters_Message_Run_Test_in_TryEditorBox()[pri:5, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:56 EDT" name="Enters_Message_Run_Test_in_TryEditorBox" finished-at="2023-10-12T21:49:57 EDT" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enters_Message_Run_Test_in_TryEditorBox -->
+        <test-method signature="Open_The_ImplementationPage_in_Stack()[pri:6, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:57 EDT" name="Open_The_ImplementationPage_in_Stack" finished-at="2023-10-12T21:49:58 EDT" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_ImplementationPage_in_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Implementationpage_in_stack()[pri:7, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:49:58 EDT" name="Run_Test_In_TryEditor_of_Implementationpage_in_stack" finished-at="2023-10-12T21:50:00 EDT" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Implementationpage_in_stack -->
+        <test-method signature="Open_The_Applicationspage_In_Stack()[pri:8, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:50:00 EDT" name="Open_The_Applicationspage_In_Stack" finished-at="2023-10-12T21:50:01 EDT" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_Applicationspage_In_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Applicationspage_in_stack()[pri:9, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:50:01 EDT" name="Run_Test_In_TryEditor_of_Applicationspage_in_stack" finished-at="2023-10-12T21:50:03 EDT" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Applicationspage_in_stack -->
+        <test-method signature="Open_Practice_Questions_Page_in_stack()[pri:10, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:50:03 EDT" name="Open_Practice_Questions_Page_in_stack" finished-at="2023-10-12T21:50:05 EDT" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Practice_Questions_Page_in_stack -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserStackTesting@7748410a]" started-at="2023-10-12T21:50:05 EDT" name="browserQuit" finished-at="2023-10-12T21:50:05 EDT" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserStackTesting -->
+    </test> <!-- TestOnMsEdge -->
+    <test started-at="2023-10-12T21:49:45 EDT" name="TestOnFireFox" finished-at="2023-10-12T21:50:10 EDT" duration-ms="25135">
+      <class name="crossBrowser.CrossBrowserStackTesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:49:45 EDT" name="setup" finished-at="2023-10-12T21:49:53 EDT" duration-ms="7512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_in()[pri:1, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:49:53 EDT" name="Login_in" finished-at="2023-10-12T21:49:56 EDT" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_in -->
+        <test-method signature="User_Open_The_Stack_Page()[pri:2, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:49:56 EDT" name="User_Open_The_Stack_Page" finished-at="2023-10-12T21:49:56 EDT" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Stack_Page -->
+        <test-method signature="User_Open_The_Page_Operations_In_Stack()[pri:3, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:49:56 EDT" name="User_Open_The_Page_Operations_In_Stack" finished-at="2023-10-12T21:49:58 EDT" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Open_The_Page_Operations_In_Stack -->
+        <test-method signature="Open_the_TryeditorPage_in_Operationpage_of_Stack()[pri:4, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:49:58 EDT" name="Open_the_TryeditorPage_in_Operationpage_of_Stack" finished-at="2023-10-12T21:50:00 EDT" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_the_TryeditorPage_in_Operationpage_of_Stack -->
+        <test-method signature="Enters_Message_Run_Test_in_TryEditorBox()[pri:5, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:00 EDT" name="Enters_Message_Run_Test_in_TryEditorBox" finished-at="2023-10-12T21:50:02 EDT" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enters_Message_Run_Test_in_TryEditorBox -->
+        <test-method signature="Open_The_ImplementationPage_in_Stack()[pri:6, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:02 EDT" name="Open_The_ImplementationPage_in_Stack" finished-at="2023-10-12T21:50:03 EDT" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_ImplementationPage_in_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Implementationpage_in_stack()[pri:7, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:03 EDT" name="Run_Test_In_TryEditor_of_Implementationpage_in_stack" finished-at="2023-10-12T21:50:05 EDT" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Implementationpage_in_stack -->
+        <test-method signature="Open_The_Applicationspage_In_Stack()[pri:8, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:05 EDT" name="Open_The_Applicationspage_In_Stack" finished-at="2023-10-12T21:50:06 EDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_The_Applicationspage_In_Stack -->
+        <test-method signature="Run_Test_In_TryEditor_of_Applicationspage_in_stack()[pri:9, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:06 EDT" name="Run_Test_In_TryEditor_of_Applicationspage_in_stack" finished-at="2023-10-12T21:50:08 EDT" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_Test_In_TryEditor_of_Applicationspage_in_stack -->
+        <test-method signature="Open_Practice_Questions_Page_in_stack()[pri:10, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:08 EDT" name="Open_Practice_Questions_Page_in_stack" finished-at="2023-10-12T21:50:09 EDT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Practice_Questions_Page_in_stack -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:crossBrowser.CrossBrowserStackTesting@f79e]" started-at="2023-10-12T21:50:09 EDT" name="browserQuit" finished-at="2023-10-12T21:50:10 EDT" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- crossBrowser.CrossBrowserStackTesting -->
+    </test> <!-- TestOnFireFox -->
+  </suite> <!-- Suite -->
+</testng-results>

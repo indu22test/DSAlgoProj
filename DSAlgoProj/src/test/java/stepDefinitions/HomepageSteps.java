@@ -1,20 +1,24 @@
 package stepDefinitions;
 
 
+ import org.junit.Assert;
+
 import Utilities.Helper;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
 import pageObjects.HomePage;
 
 
-public class HomepageSteps extends BaseClass{
+  public class HomepageSteps extends BaseClass{
 
 
-@Given("user Launch the Browser")
-public void user_launch_the_application() {
+ @Given("user Launch the Browser")
+ public void user_launch_the_application() {
 
-HomePage = new HomePage (Helper.getDriver());
+ HomePage = new HomePage (Helper.getDriver());
 
 }
 
@@ -24,6 +28,7 @@ public void the_open_the_dsportal_application() {
  
   Helper.openPage("https://dsportalapp.herokuapp.com/");
   HomePage.getstarted();
+  
 }
 
 
@@ -33,9 +38,13 @@ public void user_navigate_to_the_homepage() {
  
 }
 
-@Then("user should Verify the titlepage of Dsportal")
-public void user_should_verify_the_titlepage_of_dsportal() {
- 
+@Then("user should Verify the titlepage of Dsportal {string}")
+public void user_should_verify_the_titlepage_of_dsportal(String string) {
+   HomePage.homepagetitle();
+   String homepagetitle = Helper.getTitle();
+   Assert.assertEquals(string, homepagetitle);
+  
+    
  
 }
 
