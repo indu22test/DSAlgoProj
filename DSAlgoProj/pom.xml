@@ -12,7 +12,6 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-
 <properties>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +38,7 @@
 
     </dependency>
 
-     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
 <dependency>
 
@@ -62,20 +61,6 @@
     <version>7.12.1</version>
 
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-simple</artifactId>
-    <version>2.0.6</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>2.0.6</version>
-</dependency>
-
 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 
@@ -189,14 +174,6 @@
 
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
-<dependency>
-    <groupId>io.qameta.allure</groupId>
-    <artifactId>allure-java-commons</artifactId>
-    <version>2.22.0</version>
-</dependency>
-
-
 <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 
 <dependency>
@@ -231,20 +208,39 @@
 
     <version>2.24.0</version>
 
+  </dependency>
+
+  
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+
+<dependency>
+
+    <groupId>io.qameta.allure</groupId>
+
+    <artifactId>allure-java-commons</artifactId>
+
+    <version>2.22.0</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+
+<dependency>
+
+    <groupId>io.cucumber</groupId>
+
+    <artifactId>cucumber-core</artifactId>
+
+    <version>7.14.0</version>
+
 </dependency>
 
 
 
 
 
-  	<dependency>
-  		<groupId>helloselenium</groupId>
-  		<artifactId>helloselenium</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
-
-
 
   <build>
 
@@ -285,12 +281,20 @@
           <artifactId>maven-surefire-plugin</artifactId>
 
           <version>2.22.1</version>
-          <configuration>
+
+                    <configuration>
+
 			  <suiteXmlFiles>
+
 				  <suiteXmlFile>testing.xml</suiteXmlFile>
+
 				  <suiteXmlFile>testing1.xml</suiteXmlFile>
+
 			  </suiteXmlFiles>
+
 		  </configuration>
+
+
 
         </plugin>
 
@@ -341,6 +345,5 @@
     </pluginManagement>
 
   </build>
- 
-  
+
 </project>
