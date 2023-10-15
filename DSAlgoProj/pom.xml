@@ -236,7 +236,12 @@
 
 </dependency>
 
-
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>1.1.2</version>
+            <scope>test</scope>
+        </dependency>
 
 
 
@@ -282,17 +287,6 @@
 
           <version>2.22.1</version>
 
-                    <configuration>
-
-			  <suiteXmlFiles>
-
-				  <suiteXmlFile>testing.xml</suiteXmlFile>
-
-				  <suiteXmlFile>testing1.xml</suiteXmlFile>
-
-			  </suiteXmlFiles>
-
-		  </configuration>
 
 
 
