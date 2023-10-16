@@ -1,5 +1,4 @@
 @StackPage
-
 Feature: StackPage
 
   Background: 
