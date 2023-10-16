@@ -64,8 +64,8 @@ import pageObjects.TreePage;
 	      }
 	       
 	      @When("user enters the printmsg {string} in Editor box")
-	      public void user_enters_the_printmsg_in_editor_box(String hello) {
-		  	TreePage.Printmsg(hello);
+	      public void user_enters_the_printmsg_in_editor_box(String string) {
+		  	TreePage.Printmsg(string);
 	      }	
 	 
 	      @Then("user should able to see the print message")

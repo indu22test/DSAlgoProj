@@ -15,8 +15,7 @@
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
   
  
-  monochrome=false, 
-  tags ="@testcase01", 
+  monochrome=false,  
   features= {"src/test/resource/features"}, 
   glue= "stepDefinitions",
   dryRun= false)

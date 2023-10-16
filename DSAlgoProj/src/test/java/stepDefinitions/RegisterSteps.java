@@ -237,7 +237,7 @@ import pageObjects.RegisterPage;
 	}
 
 	@Given("user click to Dropdown of DataStructure")
-	public void user_click_to_dropdown_of_data_structure() {
+	public void user_click_to_dropdown_of_DataStructure() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
