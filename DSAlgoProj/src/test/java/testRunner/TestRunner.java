@@ -1,54 +1,29 @@
 
   package testRunner;
-  
-  import org.junit.runner.RunWith;
-  
-  import io.cucumber.junit.Cucumber; import io.cucumber.junit.CucumberOptions;
-  
-  
-  @RunWith(Cucumber.class)
-  
-  @CucumberOptions(
-		  plugin={"pretty", "html:target/MyReports/report.html",
-				  "junit:target/MyReports/report.junit",
-				  "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-  
- 
-  monochrome=false,  
-  features= {"src/test/resource/features"}, 
-  glue= "stepDefinitions",
-  dryRun= false)
-  
-   public class TestRunner {
-  
-  }
- 
+
+import org.testng.annotations.DataProvider;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
 
-	/*
-	 * package testRunner;
-	 * 
-	 * import org.junit.runner.RunWith;
-	 * 
-	 * import io.cucumber.junit.Cucumber; import io.cucumber.junit.CucumberOptions;
-	 * 
-	 * 
-	 * @RunWith(Cucumber.class)
-	 * 
-	 * @CucumberOptions(
-	 * 
-	 * 
-	 * plugin={"pretty", "html:target/MyReports/report.html",
-	 * "junit:target/MyReports/report.junit",
-	 * "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-	 * "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-	 * monochrome=false, tags ="@DataStructure" , features=
-	 * {"src/test/resource/features"}, glue= "stepdefinitions", dryRun= false)
-	 * 
-	 * public class TestRunner {
-	 * 
-	 * }
-	 * 
-	 * 
-	 */
+
+@CucumberOptions(
+monochrome = false,
+   plugin = { "pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","json:target/cucumber.json"},
+   
+features = { "src/test/java/features" }, // location of feature files
+glue = "stepDefinitions", // location of step definition files
+
+       dryRun = false)
+public class TestRunner extends AbstractTestNGCucumberTests {
+
+@DataProvider(parallel = false)
+public Object[][] scenarios() {
+
+return super.scenarios();
+}
+
+
+}
+
